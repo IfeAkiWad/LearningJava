@@ -7,6 +7,10 @@ public class Parameters {
         System.out.println(integer);
     }
 
+    static void boolParameter(boolean trueOrFalse) {
+        System.out.println(trueOrFalse);
+    }
+
     public static void main(String[] args) {
         stringParameter("Rome");
         stringParameter("China");
@@ -18,5 +22,9 @@ public class Parameters {
         intParameter(3);
         intParameter(4);
         intParameter(5);
+
+        boolParameter(false);
+        boolParameter(true);
+        
     }
 }
