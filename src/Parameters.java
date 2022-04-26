@@ -11,6 +11,10 @@ public class Parameters {
         System.out.println(trueOrFalse);
     }
 
+    static void multipleParameter(String place, int integer, boolean trueOrFalse) {
+        System.out.println("Sammy going to " + place + integer + " years ago is " + trueOrFalse);
+    }
+
     public static void main(String[] args) {
         stringParameter("Rome");
         stringParameter("China");
@@ -25,6 +29,7 @@ public class Parameters {
 
         boolParameter(false);
         boolParameter(true);
-        
+
+        multipleParameter("NYC ", 5, true);
     }
 }
