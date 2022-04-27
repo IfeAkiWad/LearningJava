@@ -1,6 +1,6 @@
 public class Variables {
    static void strVariables() {
-        String practice = "I'm growing my coding muscle by learning ";
+        String practice = "I/'m growing my coding muscle by learning ";
         String language = "Java";
 
         String experience = "My experience so far has been ok. I would rate Java with a(n) ";
@@ -18,9 +18,14 @@ public class Variables {
         System.out.println(sentence);
     }
 
+    static void boolVariables() {
+        
+    }
+
     public static void main(String[] args) throws Exception {
         strVariables();
         intVariables();
+        boolVariables();
         
     }
 }
