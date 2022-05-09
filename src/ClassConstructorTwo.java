@@ -1,9 +1,7 @@
-
 public class ClassConstructorTwo {
     String humanName;
     int humanAge;
 
-    int birthday;
     
     public ClassConstructorTwo(String name, int age) {
        humanName = name;
