@@ -9,9 +9,3 @@ public class Beyonce extends Artist{
       }
 }
 
-class Main {
-    public static void main(String[] args) {
-      Beyonce beyonce = new Beyonce();
-      beyonce.song();
-    }
-  }
