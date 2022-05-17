@@ -1,3 +1,5 @@
-public class Enumeration {
-    
+enum Enumeration {
+    MONDAY, 
+    TUESDAY,
+    WEDNESDAY
 }
