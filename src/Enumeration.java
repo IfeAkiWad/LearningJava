@@ -3,3 +3,11 @@ enum Enumeration {
     TUESDAY,
     WEDNESDAY
 }
+
+class Class {
+    enum enumClass {
+        THURSDAY,
+        FRIDAY,
+        SATURDAY
+    }
+}
