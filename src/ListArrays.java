@@ -7,7 +7,10 @@ public class ListArrays {
         planet.add("Mercury");
         planet.add("Venus");
         planet.add("Earth");
+        planet.add("Mars");
 
         System.out.println(planet);
     }
+
+
 }
